@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body{
+    font-family: arial, sans-serif;
+    text-decoration: none;
+  }
+/*FORMULARIO DE ACESSO AO SISTEMA*/
+.acesso{
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+    height: 5px;    
+    border: none;
+    font: bolder;
+    margin-top: 0px;
+
+}
+.acesso #user, #pass{
+  display: inline;
+  box-sizing: border-box;
+  size: 20px;
+  border: none;
+}
+.acesso #btn{
+  margin-top: 5px;
+  display: block;
+  box-sizing: border-box;
+}
+.acesso fieldset{
+  border: none;
+}
+.acesso #user:focus, #pass:focus{
+  background-color: #f1f1f1;
+}/*FORMULARIO DE ACESSO AO SISTEMA*/
+
+/*GRADE DE PASTAS*/
+.programas{
+  text-transform: uppercase;
+  display: block;
+  align-self: center;
+  position: relative;
+  text-align: center;
+ 
+}
+.pasta{
+  float: left;
+  position: relative;
+  margin: 25px;
+  padding: 1px;
+  box-sizing: border-box;
+  box-shadow: #000000;
+}
+.pasta p, a{
+  background-color: #708090;
+  color: white;
+  letter-spacing: normal;
+  margin: 0;
+  text-decoration: none;
+}
+.pasta img{
+  width: 50%;
+}/*GRADE DE PASTAS*/
+
+/*MENU INICIAR*/
+#menu{
+  border-bottom: black, solid, 2px;
+  text-decoration: none;
+  width: 200px;
+  height: 100%;
+  display: block;
+  align-self: auto;
+  position: static;
+  background: #f1f1f1;
+  margin-left: 0px;
+  
+}
+#menu p{
+  padding: 10px;
+  border-bottom: 5px solid #D3D3D3;
+}/*MENU INICIAR*/
+
+
+
+
+
+
+/*CABECALHO*/
+header {
+                background-image: url(../imagens/img-esq-head.png);
+                background-repeat: repeat-y;
+                background-size: contain;
+                padding: 10px;
+                text-align: left;
+                font-family: sans-serif;
+                color: white;
+                position: top, fixed;
+                width: 100%;
+                height: 75px;
+                margin: auto;
+                line-height: 1;
+                display: block;
+                border-bottom: 2px solid black;                
+}
+
+/*RODAPE*/
+.footer {
+                width: 100%;
+                height: 75px;
+                text-align: center;
+                background: #2652a1;
+                font-size: 12px;
+                bottom: 0;
+                position: fixed;
+                width: 100%;
+                line-height: 1.3;
+                padding: 0;
+}
+.footer p{
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
